@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TextTable
+@testable import PackageTextTable
 
 private let testStyle = Style.html
 

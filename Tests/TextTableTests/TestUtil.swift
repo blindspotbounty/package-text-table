@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import TextTable
+import PackageTextTable
 
 struct Person {
     let name: String
@@ -19,6 +19,7 @@ struct Person {
 let df: DateFormatter = {
     let dateFormatter = DateFormatter()
     dateFormatter.dateStyle = .short
+    dateFormatter.locale = Locale(identifier: "en-US")
     return dateFormatter
 }()
 
